@@ -111,5 +111,3 @@ Tambien se puede utiliza el guion ( - ) el asterisco ( * ) o el simbolo de mas (
 ```
 
 los subapartados
-
-
