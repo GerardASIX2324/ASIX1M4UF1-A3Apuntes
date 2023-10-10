@@ -199,4 +199,14 @@ La primera linea sirve para determinar el numero de columnas que vamos a inserta
 
 La segunda linea se usa para indicar el grosor de las columnas mediante guiones. Se inserta una barra vertical a principio de linea y se añaden los guiones preferidos segun el grosor de la columna a la que pertenecen. Si se desea la primera columna igual que la segunda y la tercera un poco mas fina, se tendrian que añadir los mismos guiones en la primera y en la segunda columna respectivamente y poner menos guiones en la tercera.
 
-Para la posicion del texto tambien se usa la segunda linea
+Para la posicion del texto tambien se usa la segunda linea. El texto viene por defecto pegado a la izquierda. Para ponerlo en el lado izquierdo basta con no poner nada o poner dos puntos(:) en el lado izquierdo antes de los guiones. Si se desea poner el texto pegado a la derecha solo se necesita poner los dos puntos (:) al lado derecho de la columna despues de los guiones. Por ultimo, si se desea poner el texto centrado, es necesario poner los dos puntos en ambos lados de los guiones.
+
+Ejemplo:
+
+|Primera Col.|Segunda Col.|3 Col.|
+|----------------------------|:------------:|----:|
+|Izquierda|Centrada|Dch.|
+|Clase|ASIX1|M1|
+|Clase|ASIX2|M2|
+|Clase|ASIX1|M4|
+|Clase|ASIX2|M13|
