@@ -2,7 +2,7 @@
 
 Repositorio de apuntes de M4
 
-## Primer capitulo: MARKDOWN
+## Primer capítulo: MARKDOWN
 
 ### Titulos y subtitulos
 
@@ -210,3 +210,34 @@ Ejemplo:
 |Clase|ASIX2|M2|
 |Clase|ASIX1|M4|
 |Clase|ASIX2|M13|
+
+```
+|Primera Col.|Segunda Col.|3 Col.|
+|----------------------------|:------------:|----:|
+|Izquierda|Centrada|Dch.|
+|Clase|ASIX1|M1|
+|Clase|ASIX2|M2|
+|Clase|ASIX1|M4|
+|Clase|ASIX2|M13|
+```
+
+### Insertara seleccion de casillas
+
+Para insertar una selecion de casillas basta con poner dos corchetes,([]) uno abierto y el otro cerrado seguidos de la opcion que se quiera seleccionar separada con un espacio de la casilla de seleccion. Para seleccionar una casilla basta con poner una 'X' entre los dos corchetes.
+
+
+-[ ] Opción A
+
+-[X] Opción B
+
+-[ ] Opción C
+
+```
+-[ ] Opción A
+
+-[X] Opción B
+
+-[ ] Opción C
+```
+
+## Segundo capítulo: HTML
