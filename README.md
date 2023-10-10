@@ -19,13 +19,11 @@ Aqui un ejemplo de como seria y el codigo de la estructura justo debajo:
 ###### subtitulo
 
 ```
-
 ## subtitulo
 ### subtitulo
 #### subtitulo
 ##### subtitulo
 ###### subtitulo
-
 ```
 
 ### Cursiva y negrita
@@ -38,10 +36,8 @@ Este texto esta en *cursiva*.
 Este texto esta en _cursiva_.
 
 ```
-
 Este texto esta en *cursiva*.
 Este texto esta en _cursiva_.
-
 ```
 
 Para poner un texto en negrita se utiliza el simbolo del asterisco ( * ) o la barra baja ( _ ) poniendo dos a cada lado del texto que queramos pones en negrita.
@@ -52,10 +48,8 @@ Este texto esta en **negrita**.
 Este texto esta en __negrita__.
 
 ```
-
 Este texto esta en **negrita**.
 Este texto esta en __negrita__.
-
 ```
 
 Si se desea en algun caso tambien se pueden combinar las dos poniendo uno para cada una de las condiciones que quiera cumplir. Si se quiere utilizar el asterisco para la cursiva, obligatoriamente se debe utilizar el hashtag para la negrita.
@@ -66,13 +60,13 @@ Este texto esta en _**negrita y cursiva**_.
 Este texto esta en __*negrita y cursiva*__.
 
 ```
-
 Este texto esta en _**negrita y cursiva**_.
 Este texto esta en __*negrita y cursiva*__.
-
 ```
 
 ### Listas ordenadas y desordenadas y subapartados
+
+#### Lista ordenada
 
 Para hacer una enumeracion o una lista de valores ordenada se utilizan numeros seguidos de un punto.
 
@@ -83,12 +77,12 @@ Ejemplo:
 3. tercera opción del menú
 
 ```
-
 1. primera opción del menú
 2. segunda opción del menú
 3. tercera opción del menú
-
 ```
+
+#### Lista desordenada
 
 Tambien se puede utiliza el guion ( - ) el asterisco ( * ) o el simbolo de mas ( + ) para hacerlo en una lista desordenada o sin enumeracion.
 
@@ -100,14 +94,16 @@ Tambien se puede utiliza el guion ( - ) el asterisco ( * ) o el simbolo de mas (
 + sexta opción de lista desordenada
 
 ```
-
 * primera opción de lista desordenada
 * segunda opción de lista desordenada
 - tercera opción de lista desordenada
 - cuarta opción de lista desordenada
 + quinta opción de lista desordenada
 + sexta opción de lista desordenada
-
 ```
 
-los subapartados
+#### Subapartados
+
+Para crear subapartados en listas oedenadas o desordenadas solo hay que pulsar el tabulador (tecla a la izquierda de la 'Q') en la linea donde queramos poner el subapartado.
+Los subaparados pueden ser tambien ordenados o desordenados siguiendo la regla anterior.
+
