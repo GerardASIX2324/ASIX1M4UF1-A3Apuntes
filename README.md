@@ -107,6 +107,19 @@ Tambien se puede utiliza el guion ( - ) el asterisco ( * ) o el simbolo de mas (
 Para crear subapartados en listas oedenadas o desordenadas solo hay que pulsar el tabulador (tecla a la izquierda de la 'Q') en la linea donde queramos poner el subapartado.
 Los subaparados pueden ser tambien ordenados o desordenados siguiendo la regla anterior.
 
+Un ejemplo seria el siguiente:
+
+* primera opción de lista desordenada
+* segunda opción de lista desordenada
+- tercera opción de lista desordenada
+    1. primer sub menú
+    2. segundo sub menú
+- cuarta opción de lista desordenada
+    *tercer sub menú
+    *cuarto sub menú
++ quinta opción de lista desordenada
++ sexta opción de lista desordenada
+
 ```
 * primera opción de lista desordenada
 * segunda opción de lista desordenada
@@ -118,4 +131,32 @@ Los subaparados pueden ser tambien ordenados o desordenados siguiendo la regla a
     *cuarto sub menú
 + quinta opción de lista desordenada
 + sexta opción de lista desordenada
+```
+
+### Mostrar codigo en el documento sin que este activo
+
+Para mostar una parte de codigo en un documento lo que hay que hacer es poner tres tildes abiertas (`) una linea mas arriba del codigo que se quiera mostrar y otras tres tildes una linea mas abajo del codigo que quieras mostrar.
+
+Ejemplo:
+
+```
+<html>
+    <head>
+    </head>
+    <body>
+        <p>Esto es un párrafo</p>
+    </body>
+</html>
+```
+
+```
+```
+<html>
+    <head>
+    </head>
+    <body>
+        <p>Esto es un párrafo</p>
+    </body>
+</html>
+```
 ```
