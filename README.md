@@ -107,3 +107,15 @@ Tambien se puede utiliza el guion ( - ) el asterisco ( * ) o el simbolo de mas (
 Para crear subapartados en listas oedenadas o desordenadas solo hay que pulsar el tabulador (tecla a la izquierda de la 'Q') en la linea donde queramos poner el subapartado.
 Los subaparados pueden ser tambien ordenados o desordenados siguiendo la regla anterior.
 
+```
+* primera opción de lista desordenada
+* segunda opción de lista desordenada
+- tercera opción de lista desordenada
+    1. primer sub menú
+    2. segundo sub menú
+- cuarta opción de lista desordenada
+    *tercer sub menú
+    *cuarto sub menú
++ quinta opción de lista desordenada
++ sexta opción de lista desordenada
+```
