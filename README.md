@@ -150,8 +150,6 @@ Ejemplo:
 ```
 
 ```
-
-```
 <html>
     <head>
     </head>
@@ -161,4 +159,15 @@ Ejemplo:
 </html>
 ```
 
+### Insetacion de enlaces
+
+Para insertar un enlace en el documento hay que seguir las siguientes indicaciones poniendolo todo en la misma linea y sin espacios excepto en los lugares donde va texto visible:
+1. Poner entre corchetes como queremos que se muestre el enlace.
+2. Abrir un parentesis y poner la URL donde queremos que nos lleve el enlace.
+3. Sin cerrar el parentesis anterior, poner entre comillas un texto adicional donde se explica donde lleva esa URL.
+
+[Web J23](https://www.fje.edu "Enlace a la web del colegio Jesuites Bellvitge. Centre d'Estudis Joan XXIII")
+
+```
+[Web J23](https://www.fje.edu "Enlace a la web del colegio Jesuites Bellvitge. Centre d'Estudis Joan XXIII")
 ```
