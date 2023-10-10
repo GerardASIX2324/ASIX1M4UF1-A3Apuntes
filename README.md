@@ -190,3 +190,13 @@ Para insertar una imagen en un documento hay que seguir las siguietes indicacion
 ```
 ![Meme Ibai PSOE](https://github.com/GerardASIX2324/ASIX1M4UF1-A3Apuntes/blob/main/F7BWCNibMAAPu05.jpg "Meme de Ibai sugetando con orgullo la carta de la Kings League del PSOE")
 ```
+
+### Insetar una tabla
+
+Para insertar una tabla en un documento se hace de la siguente forma.
+
+La primera linea sirve para determinar el numero de columnas que vamos a insertar. Se inserta sin espacios, exceptuando los lugares donde va el texto, una barra vertical al principio de la linea seguido del texto que va a aparecer en a primera columna. Al acabar de escribir el texto de la primera columna, insetar una barra vertical sin espacio para cerrar la columna. Si se desea añadir mas colunmas solo hay que seguir el mismo procedimiento para las demas, el unico cambio es que no hara falta insertar otra barra vertical para insertar otra columna, con seguir escribiendo en la misma linea funciona.
+
+La segunda linea se usa para indicar el grosor de las columnas mediante guiones. Se inserta una barra vertical a principio de linea y se añaden los guiones preferidos segun el grosor de la columna a la que pertenecen. Si se desea la primera columna igual que la segunda y la tercera un poco mas fina, se tendrian que añadir los mismos guiones en la primera y en la segunda columna respectivamente y poner menos guiones en la tercera.
+
+Para la posicion del texto tambien se usa la segunda linea
