@@ -2,7 +2,28 @@
 
 Repositorio de apuntes de M4
 
-## Primer capítulo: MARKDOWN
+## Primer capítulo: GITHUB
+
+### Creación y clonacion de repositorios
+
+#### Creación
+
+Para crear un repositorio de GitHub iremos a nuestro perfil y le daremos al apartado de "Your repositories". Ya dentro de nuestros repositorios podremos ver todos los que tenemos.
+Arriba a la derecha hay un boton en verde que pone "New". Si clicamos encima se nos abrira una pestaña completamente nueva con el titulo de "Create a new repository". En las opcines que hay nos pondremos a nosotros de propietarios y al lado pondremos el nombre que le podemos dar a nuestro repositorio. Si nos equivocamos, mas tarde se puede cambiar. Debajo tenemos una casilla con caracteres ilimitados para poner una descripcion de nuestro proyecto. En el siguiente apartado nos muestra dos opciones donde tenemos que marcar una de ellas preguntandonos si queremos que nuestro repositorio sea publico o privado. Si lo ponemos en publico el repositorio sera visible para cualquier persona que se meta en nuestro perfil. Si lo ponemos en privado solo sera accesible para nosotros.
+Como una de las ultimas ociones nos aparece "Initialize this repository with:" Ahi seleccionaremos la opcion de "Add a redme file" para asi tener una archivo y que el repositorio funcione. En ningun caso pulsaremos enter cuando estemos en la pagina de creacion de un repositorio para evitar crearlo por error. Cuando este todo configurado le daremos a "create repository" marcada en verde al final del documento.
+
+#### Clonacion
+
+Lo mas recomendable a la hora de trabajar con GitHub es trabajar en local y luego subirlo a la nube. Para ello necesitaremos la app de Git GUI. Despues de descargarla y tenerlo todo listo, accederemos la explorador de archivos y seleccionaremos donde queremos que se guarden loos repositorios en nuestra maquina local. Una vez dentro de la carpeta deseada, en el panel de la ruta escribiremos "cmd", desde alli guardaremos, clonaremos y subiremos los repositorios.
+Una vez dentro de la CMD iremos a nuestro repositorio en la pagina de GitHub.
+
+### Subida de archivos
+
+
+
+### Pages
+
+## Segundo capítulo: MARKDOWN
 
 ### Titulos y subtitulos
 
@@ -240,4 +261,4 @@ Para insertar una selecion de casillas basta con poner dos corchetes,([]) uno ab
 -[ ] Opción C
 ```
 
-## Segundo capítulo: HTML
+## Tercer capítulo: HTML
