@@ -9,19 +9,54 @@ Repositorio de apuntes de M4
 #### Creación
 
 Para crear un repositorio de GitHub iremos a nuestro perfil y le daremos al apartado de "Your repositories". Ya dentro de nuestros repositorios podremos ver todos los que tenemos.
+
 Arriba a la derecha hay un boton en verde que pone "New". Si clicamos encima se nos abrira una pestaña completamente nueva con el titulo de "Create a new repository". En las opcines que hay nos pondremos a nosotros de propietarios y al lado pondremos el nombre que le podemos dar a nuestro repositorio. Si nos equivocamos, mas tarde se puede cambiar. Debajo tenemos una casilla con caracteres ilimitados para poner una descripcion de nuestro proyecto. En el siguiente apartado nos muestra dos opciones donde tenemos que marcar una de ellas preguntandonos si queremos que nuestro repositorio sea publico o privado. Si lo ponemos en publico el repositorio sera visible para cualquier persona que se meta en nuestro perfil. Si lo ponemos en privado solo sera accesible para nosotros.
+
 Como una de las ultimas ociones nos aparece "Initialize this repository with:" Ahi seleccionaremos la opcion de "Add a redme file" para asi tener una archivo y que el repositorio funcione. En ningun caso pulsaremos enter cuando estemos en la pagina de creacion de un repositorio para evitar crearlo por error. Cuando este todo configurado le daremos a "create repository" marcada en verde al final del documento.
 
 #### Clonacion
 
-Lo mas recomendable a la hora de trabajar con GitHub es trabajar en local y luego subirlo a la nube. Para ello necesitaremos la app de Git GUI. Despues de descargarla y tenerlo todo listo, accederemos la explorador de archivos y seleccionaremos donde queremos que se guarden loos repositorios en nuestra maquina local. Una vez dentro de la carpeta deseada, en el panel de la ruta escribiremos "cmd", desde alli guardaremos, clonaremos y subiremos los repositorios.
-Una vez dentro de la CMD iremos a nuestro repositorio en la pagina de GitHub.
+Lo mas recomendable a la hora de trabajar con GitHub es trabajar en local y luego subirlo a la nube. Para ello necesitaremos la app de Git GUI. Despues de descargarla y tenerlo todo listo, accederemos la explorador de archivos y seleccionaremos donde queremos que se guarden loos repositorios en nuestra maquina local. Una vez dentro de la carpeta deseada, en el panel de la ruta escribiremos "cmd", desde alli guardaremos, clonaremos y subiremos los repositorios por codigo en la terminal. 
+
+Para hacerlo accederemos GitHub y nos dirigiremos a nuestro repositorio. Cuando estemos dentro nos aparecera un boton de color verde con el texto "<>Code" donde si clicamos se nos abrira un desplegable. Alli encontraremos diferentes opciones. La que nos interesa para clonar el codigo en la nube es el link que nos deja copiar en el portapapeles dandole al boton de la derecha del panel. Cuando tengamos ese link copiado, iremos a nuestro explorador de archivos y nos meteremos DENTRO de la carpeta de nuestro repositorio. Comoa antes, escribiremos cmd y ejecutaremos el siguiente comando.
+
+1. git clone (pegamos el link copiado anteriormente sin ningun tipo de parentesis)
+
 
 ### Subida de archivos
 
+Para la subida de archivos tendremos que acceder DENTRO de la carpeta de nuestro repositiorio y escribiremos "cmd" en el panel de la ruta. Con la terminal abierta, pondremos los siguientes comandos:
 
+1. Insertar en la cmd el comando "git init" para iniciarlo.
+2. Insertar en la cmd el comando "git add . " para añadir el contenido a la nube.
+3. Insertar en la cmd el comando "git commit -m "(titulo de la actualización)" para poner un titulo a la actualización.
+4. Insertar en la cmd el comando "git push origin main" para subirlo del origen a la raiz principal.
+
+Una vez hecho esto ya tendriamos nuestro repositorio local identico a nuestro repositorio en la nube siempre que no hayamos puesto mal algun comando o nos de algun error a la hora de subirlo.
+
+NOTA: Si se ha trabajado desde la nube y luego se ha trabajado en local y queremos subirlo, no nos va a dejar actualizar ninguno de los dos ya que ninguno es una version anterior del otro. Para solucionar este error, lo mas sencillo es copiar lo que hayamos hecho en local en la nube a mano, eliminar la carpeta del repositorio local (despues de haber copiado los avances en la nube obviamente) y clonar de nuevo el repositorio en local para tener lo mismo que en la nube. Si volvemos a intentar un archivo despues de seguir lo anteriores pasos nos funcionara.
+
+### Eliminar un repositorio
+
+Eliminar un repositorio es una tarea muy facil pero larga para confirmar que estas seguro de eliminarlo.
+
+Para eliminar un repositorio iremos al repositorio que queremos eliminar, nos meteremos en settings, en la pestaña de "General" scrolearemos hasta abajo del todo y nos situaremos en el apartado de "Danger Zone". Alli tendremos que tener sumo cuidado. Seleccionaremos la opcion de "Delete this repository" y clicaremos en el boton rojo situado a la derecha con el mismo texto. Luego nos aparecera un pop-up pidiendonos la confirmacion para elimiar el repositorio. Para hacerlo haremos clic en el boton inferior con la inscripcion "I want to delete this repository". Si aun no estamos seguros del todo nos va a salir otro pop-up para verificar la confirmacion. Para continuar, pulsaremos el boton con la inscripcion "I have read and understand these effets". Después de haber clicado nos va a salir otro pop-up pidiendo que copiemos el nombre del repositorio que queramos elimiar para asi estar seguros del todo. En la parte superior nos saldra el nombre para copiarlo. El nombre tiene que ser exacto, sino no nos aceptara la opcin de eliminarlo. Si queremos hacerlo rapido copiando el texto superior, no nos va a dejar. Esta hecho expresamente para eso. Cuando este copiado indetico se nos habilitara un boton debajo con la inscripcion "Delete this repository". Para colmo y para asegurarnos de que somos nosotros nos pedira la contraseña de nuestro usuario para poder eliminar definitivamente el repositorio. Una vez seguidos todos estos pasos al pie de la letra tendremos eliminado por completo el repositorio.
+
+NOTA: Si queremos salir o en cualquier momento nos arrepentimos de eliminarlo, nada mas con hacer click fuera de cualquier pop-up que nos salga se cancelara la accion.
 
 ### Pages
+
+El apartado de pages sirve para la visualizacion total de una pagina web creada en HTML hasta lo que sabemos hasta la fecha.
+
+Para crear un pages tendremos que hacer lo siguiente:
+
++ Acceder al repositorio del cual querramos crear un pages.
++ Ir al apartado de settings.
++ Seleccionar en la columa de la izquierda el apartado de"Pages".
+
+Cuando estemos dentro de esa pestaña, no dirigiremos al apartado de "branch" y le daremos al boton donde pone "none" para seleccionar el lugar donde queramos situarlo. Normalmente es en "main".
+
+Luego se nos mostrara una opcion en la misma linea que pondra "Save". Cuando hayamos clicado solo faltara esperar a que se cree el link automaticamente en la parte superior de la pestaña de pages. No es instantaneo. Depende del peso y la extension de la pagina puede tardas mas o menos tiempo. Normalmente son un par de minutos como maximo.
 
 ## Segundo capítulo: MARKDOWN
 
@@ -33,13 +68,12 @@ Contantra mas hashtag pongamos mas pequeño es el subtitulo y ams subapartados s
 
 Aqui un ejemplo de como seria y el codigo de la estructura justo debajo:
 
-## subtitulo
-### subtitulo
 #### subtitulo
 ##### subtitulo
 ###### subtitulo
 
 ```
+# subtitulo
 ## subtitulo
 ### subtitulo
 #### subtitulo
@@ -78,6 +112,7 @@ Si se desea en algun caso tambien se pueden combinar las dos poniendo uno para c
 Ejemplo:
 
 Este texto esta en _**negrita y cursiva**_.
+
 Este texto esta en __*negrita y cursiva*__.
 
 ```
@@ -148,8 +183,8 @@ Un ejemplo seria el siguiente:
     1. primer sub menú
     2. segundo sub menú
 - cuarta opción de lista desordenada
-    *tercer sub menú
-    *cuarto sub menú
+    * tercer sub menú
+    * cuarto sub menú
 + quinta opción de lista desordenada
 + sexta opción de lista desordenada
 ```
@@ -193,9 +228,9 @@ Para insertar una imagen en un documento hay que seguir las siguietes indicacion
 2. Subir la imagen a GitHub de la misma forma con la cual guardamos los documentos.
     1. Abrir la carpeta donde esta situado el archivo.
     2. Escribir "cmd" en la barra de la direccion de la carpeta.
-    3. Insertar en la cmd el comando "git init iniciarlo.
+    3. Insertar en la cmd el comando "git init" para iniciarlo.
     4. Insertar en la cmd el comando "git add . " para añadir el contenido a la nube.
-    5. Insertar en la cmd el comando "git commit -m "(titulo de la actualización)"" para poner un titulo a la actualización.
+    5. Insertar en la cmd el comando "git commit -m "(titulo de la actualización)" para poner un titulo a la actualización.
     6. Insertar en la cmd el comando "git push origin main" para subirlo del origen a la raiz principal.
 3. Entrar en el repositorio de GitHub correspondiente.
 4. Hacer click en el link de la imagen situado encima de la visualización del documento.
