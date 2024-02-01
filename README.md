@@ -444,3 +444,71 @@ La estructura de una tabla seria la siguiente:
         </tfoot>
     </table>
 ```
+
+## Cuarto capítulo: CSS
+
+CSS es un lenguaje informático que especifica cómo se presentan los documentos a los usuarios.
+
+Las etiquetas de CSS se pueden colocar en tres sitio distintos.
+
+### Estilos; Dentro de la propia etiqueta (inline)
+
+Se hace a partir de atributos. Son los modificadores de la etiqueta principal.
+
+Para asignar estilo se añade style=”” dentro de la etiqueta antes de cerrar el >. 
+
+### Estilos; Documento aparte .css
+
+Lo primero que tendremos que hacer sera crear una hoja de estilos .css. Seguido nos iremos al documento html al cual queramos vincularla. Para hacerlo escribiremos en el head ```<link rel="stylesheet" href="(ruta de la hoja de estilos .css)">```.
+
+Con esto listo pocederemos a implemetar los estilos en nuestra hoja vinculada. Hay diferenes posibilidades: etiquetas, ids o clases.
+
+#### Etiquetas
+
+Para poner una etiqueta es tan simple como poner el nombre de esta. Si queremos implemetar un estilo a todo el ```<body>``` (por ejemplo para poner el mismo tipo de letra en toda la página) escribiremos ```body``` en la hoja de estilos seguido de una llave de apertura y otra de cierre ({}). En medio de estas pondremos las condiciones y las diferentes variables que modificaran los estilos de nuestro documento.
+
+Ejemplo:
+
+```
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+```
+
+#### ID'S
+
+Los id sirven para identificar una parte del documento en concreto.
+
+Para crear un ID pondremos antes de cerrar la etiqueta a la cual queremos referirnos lo siguiente: ```id="(nombre que queramos poner al id)"```
+
+Para ponerlos en nuestra hoja de estilos, antes de poner el nombre del id, pondremos una almohadilla (#). 
+
+Ejemplo: 
+
+```
+#mapa{
+  padding-bottom: 100px;
+}
+```
+
+#### Clases
+
+Las clases, como los id, sirven para identificar partes de un documento en concreto para que tengan las mismas caracteristicas. En el caso de los id solo se pueden utilizar una vez con una unica etiqueta, pero con las clases conseguimos que se pueda poner en mas de una etiqueta a la vez consiguiendo asi un id para varias cosas en vez de solo una. 
+
+Para crear una clase pondremos antes de cerrar la etiqueta/etiquetas a las cuales queremos referirnos lo siguiente: ``class="nombre que querasmo poner a la clase"```
+
+Para ponerlas en nuestra hoja de estilos, antes de poner el nombre del id, pondremos un punto (.). 
+
+Ejemplo: 
+
+```
+.mapa{
+  padding-bottom: 100px;
+}
+```
+
+### Estilos; En el head
+
+Para añadir estilos desde el head lo primero que hay que hacer es abrir una etiqueta de ```<style>``` dentro del bloque de head. Luego el procedimieto es exactamente el mismo que el de una hoja de estilos CSS, poniendo los nombres de los id/clase como corresponden.
+
