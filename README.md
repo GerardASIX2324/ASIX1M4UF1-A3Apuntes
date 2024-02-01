@@ -524,4 +524,34 @@ Para añadir estilos desde el head lo primero que hay que hacer es abrir una eti
 
 Hay muchos tipos de parametros que se pueden poner dentro de una hoja de estilos css. Estos son los mas basicos:
 
-- 
+- margin (margen)
+
+- padding (padding)
+
+- border (borde)
+
+- color (color de texto)
+
+- background-color (color de fondo)
+
+- background-image (imagen de fondo)
+
+...
+
+## Quinto capítulo: Diseño responsive
+
+El diseño responsive es una técnica de diseño web que permite que una página se adapte y visualice de manera óptima en diversos dispositivos y tamaños de pantalla, garantizando una experiencia de usuario coherente.
+
+Supongamos que tienes un sitio web con tres columnas de contenido cuando se ve en una pantalla grande, pero en dispositivos más pequeños, como teléfonos móviles, quieres que esas tres columnas se conviertan en una sola columna para una mejor visualización.
+
+En el documento css esto se implementa de la siguiente forma:
+
+```
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+```
+
+El ```@media``` es lo que hace que esto suceda, es el parametro que lo introduce. Seguido ponemos la condicion. En este caso es queremos que cuando la pantalla no supere los 700px, las tres columnas pasen a ser solo una. Para ello ponemos ```max-width: (numero de pixeles maximos para cambiar la pantalla)```.Dentro ponemos en que etiqueta, clase o id donde queremos que se implemente y especificamos que condiciones queremos que cumpla.
