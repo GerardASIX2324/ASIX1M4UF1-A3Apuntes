@@ -297,3 +297,81 @@ Para insertar una selecion de casillas basta con poner dos corchetes,([]) uno ab
 ```
 
 ## Tercer capítulo: HTML
+
+Html (HiperText Markup Language): no es un lenguaje de programación, es simplemente estructura.
+En html hay etiquetas. Están las de apertura (<p>) y las de cierre (</p>)
+Lo que hay en medio es el contenido visible y todo en global es el elemento.
+
+### Bloque HEAD
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+
+La primera etiqueta nos dice que tipo de documento es. 	
+La segunda nos dice el idioma
+La tercera parte es donde decimos las características y hacemos el formateo de la pg. Nada de lo que hay ahí se ve.
+En la cuarta línea hay un metadato. En este caso es el de Europa occidental. Añade símbolos y letras de Europa occidental como puede ser la ñ.
+En la sexta línea ponemos el título de la pagina
+Debajo de la línea 6 es donde se empiezan a poner los links que se relacionan directamente con el documento como pueden ser el icono de la página, la hoja de estilos, fuentes de texto, etc.
+
+#### Poner un icono en la página
+
+Para cambiar el icono de una pagina lo haremos poniendo el siguiente link: <link rel="icon" href="(ruta de la imagen)"> la imagen siempre debe estar en .ico
+
+### Bloque BODY
+
+El bloque de <body> es donde va todo el contenido de la página visible.
+Existen dos tipos de etiquetas:
+•	Etiquetas de bloque: títulos, párrafos, listas y tablas son elementos de bloque
+•	Etiquetas de línea: enlaces, estilos (negrita, subrayado, cursiva…) e imágenes.
+
+#### Etiquetas
+
+•	Títulos y subtítulos: 
+<h1>
+<h2>
+<h3>
+<h4>
+•	Negrita: <strong>
+•	Cursiva: <italic>
+•	Párrafos: <p>
+•	Lista ordenada: <ol>
+•	Lista desordenada: <ul>
+•	Dentro de la lista <li>
+•	Intro/dejar un espacio: <br>
+•	Insertar enlace: <a href=”(url o ruta de la pg)”alt=”(lo que quieres que ponga al pasar el ratón por encima)target=”_blank”</a>. el target lo ponemos si queremos que se abra la pg en una pestaña nueva. Sino, no se pone nada
+•	Insertar imagen: <img src=”./nombre de la imagen SIN ESPACIOS NI SIMBOLOS RAROS”> alt=”(lo que quieres que salga al pasar el ratón por encima)”
+•	Insertar imagen entrando en una carpeta <img src=”./(nombre de la carpeta)/…/(nombre de la imagen)
+•	Insertar imagen saliendo de una capeta <img src=”../
+../ seria para salir todas las veces que necesites hacia atrás. Para ir hacia adelante otra vez ponemos el nombre de la carpeta.
+•	Línea separadora: <hr>
+•	Comentarios para que no se vean en la pg web: <!--   -->
+•	Para hacer un enlace dentro de la propia web, antes de cerrar con el > de la <h3 (por ejemplo) ponemos id=”(lo que quieras)” y luego lo cerramos. Después, para poner el link en lugar que quieras de la pagina escribes:
+<a href=”#(nombre del id escrito antes)”> (como quieres que aparezca en pantalla) </a>
+•	foto dentro de un enlace:
+<a href="(ruta a la pagina o url de la pg) "><img src="(ruta de la imagen)" alt="(lo que pone al pasar el ratón por encima)" width="(tamaño)px"></a>
+
+#### Inserción de tablas
+
+•	<table>: insertar tabla
+Dentro de tabla sale:
+	<thead>: primera fila
+	<tbody>: filas de en medio
+	<tfoot>: última fila
+Dentro de estas
+-	<tr> son las filas especificas
+Dentro de estas:
+	<th>columnas dentro de la fila (en la primera y la última)
+	<td>columnas dentro de la fila (en las de en medio)
+
