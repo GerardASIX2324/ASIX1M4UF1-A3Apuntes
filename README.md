@@ -346,39 +346,70 @@ Existen dos tipos de etiquetas:
 #### Etiquetas
 
 • Títulos y subtítulos: 
+
 ```<h1>```
+
 ```<h2>```
+
 ```<h3>```
+
 ```<h4>```
+
 • Negrita: ```<strong>```
+
 • Cursiva: ```<italic>```
+
 • Párrafos: ```<p>```
+
 • Lista ordenada: ```<ol>```
+
 • Lista desordenada: ```<ul>```
+
 • Dentro de la lista ```<li>```
+
 • Intro/dejar un espacio: ```<br>```
+
 • Insertar enlace: ```<a href=”(url o ruta de la pg)”alt=”(lo que quieres que ponga al pasar el ratón por encima)target=”_blank”</a>```. el target lo ponemos si queremos que se abra la pg en una pestaña nueva. Sino, no se pone nada
+
 • Insertar imagen: ```<img src=”./nombre de la imagen SIN ESPACIOS NI SIMBOLOS RAROS”> alt=”(lo que quieres que salga al pasar el ratón por encima)”```
+
 • Insertar imagen entrando en una carpeta ```<img src=”./(nombre de la carpeta)/…/(nombre de la imagen)```
+
 • Insertar imagen saliendo de una capeta ```<img src=”../```
+
 ../ seria para salir todas las veces que necesites hacia atrás. Para ir hacia adelante otra vez ponemos el nombre de la carpeta.
+
 • Línea separadora: ```<hr>```
+
 • Comentarios para que no se vean en la pg web: ```<!--   -->```
+
 • Para hacer un enlace dentro de la propia web, antes de cerrar con el > de la ```<h3>``` (por ejemplo) ponemos id=”(lo que quieras)” y luego lo cerramos. Después, para poner el link en lugar que quieras de la pagina escribes:
+
 ```<a href=”#(nombre del id escrito antes)”> (como quieres que aparezca en pantalla) </a>```
+
 • foto dentro de un enlace:
+
 ```<a href="(ruta a la pagina o url de la pg) "><img src="(ruta de la imagen)" alt="(lo que pone al pasar el ratón por encima)" width="(tamaño)px"></a>```
 
 #### Inserción de tablas
 
-• ```<table>```: insertar tabla
+```<table>```: insertar tabla
+
 Dentro de tabla sale:
-	<thead>: primera fila
-	<tbody>: filas de en medio
-	<tfoot>: última fila
+
+-```<thead>```: primera fila
+
+-```<tbody>```: filas de en medio
+
+-```<tfoot>```: última fila
+
 Dentro de estas
--	```<tr>``` son las filas especificas
+
+-```<tr>``` son las filas especificas
+
 Dentro de estas:
-	<th>columnas dentro de la fila (en la primera y la última)
-	<td>columnas dentro de la fila (en las de en medio)
+
+```<th>```columnas dentro de la fila (en la primera y la última)
+
+```<td>```columnas dentro de la fila (en las de en medio)
 
