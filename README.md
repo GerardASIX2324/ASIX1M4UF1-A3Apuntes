@@ -373,23 +373,17 @@ Existen dos tipos de etiquetas:
 
 • Insertar imagen: ```<img src=”./nombre de la imagen SIN ESPACIOS NI SIMBOLOS RAROS”> alt=”(lo que quieres que salga al pasar el ratón por encima)”```
 
-• Insertar imagen entrando en una carpeta ```<img src=”./(nombre de la carpeta)/…/(nombre de la imagen)```
+• Insertar imagen entrando en una carpeta: ```<img src=”./(nombre de la carpeta)/…/(nombre de la imagen)```
 
-• Insertar imagen saliendo de una capeta ```<img src=”../```
-
-../ seria para salir todas las veces que necesites hacia atrás. Para ir hacia adelante otra vez ponemos el nombre de la carpeta.
+• Insertar imagen saliendo de una capeta: ```<img src=”../``` ../ seria para salir todas las veces que necesites hacia atrás. Para ir hacia adelante otra vez ponemos el nombre de la carpeta.
 
 • Línea separadora: ```<hr>```
 
 • Comentarios para que no se vean en la pg web: ```<!--   -->```
 
-• Para hacer un enlace dentro de la propia web, antes de cerrar con el > de la ```<h3>``` (por ejemplo) ponemos id=”(lo que quieras)” y luego lo cerramos. Después, para poner el link en lugar que quieras de la pagina escribes:
+• Para hacer un enlace dentro de la propia web, antes de cerrar con el > de la etiqueta ```<h3>``` (por ejemplo) ponemos id=”(lo que quieras)” y luego lo cerramos. Después, para poner el link en lugar que quieras de la pagina escribes: ```<a href=”#(nombre del id escrito antes)”> (como quieres que aparezca en pantalla) </a>```
 
-```<a href=”#(nombre del id escrito antes)”> (como quieres que aparezca en pantalla) </a>```
-
-• foto dentro de un enlace:
-
-```<a href="(ruta a la pagina o url de la pg) "><img src="(ruta de la imagen)" alt="(lo que pone al pasar el ratón por encima)" width="(tamaño)px"></a>```
+• foto dentro de un enlace: ```<a href="(ruta a la pagina o url de la pg) "><img src="(ruta de la imagen)" alt="(lo que pone al pasar el ratón por encima)" width="(tamaño)px"></a>```
 
 #### Inserción de tablas
 
@@ -403,13 +397,13 @@ Dentro de tabla sale:
 
 -```<tfoot>```: última fila
 
-Dentro de estas
+Dentro de estas:
 
 -```<tr>``` son las filas especificas
 
-Dentro de estas:
+Dentro de esta:
 
-```<th>```columnas dentro de la fila (en la primera y la última)
+-```<th>```:columnas dentro de la fila (en la primera y la última)
 
-```<td>```columnas dentro de la fila (en las de en medio)
+```<td>```:columnas dentro de la fila (en las de en medio)
 
