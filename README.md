@@ -22,7 +22,6 @@ Para hacerlo accederemos GitHub y nos dirigiremos a nuestro repositorio. Cuando 
 
 1. git clone (pegamos el link copiado anteriormente sin ningun tipo de parentesis)
 
-
 ### Subida de archivos
 
 Para la subida de archivos tendremos que acceder DENTRO de la carpeta de nuestro repositiorio y escribiremos "cmd" en el panel de la ruta. Con la terminal abierta, pondremos los siguientes comandos:
@@ -223,7 +222,6 @@ Para insertar un enlace en el documento hay que seguir las siguientes indicacion
 
 Para insertar una imagen en un documento hay que seguir las siguietes indicaciones poniendo todo en la misma linea y sin espacios excepto en los lugares donde va texto visible:
 
-
 1. Situar la imagen a la carpeta local.
 2. Subir la imagen a GitHub de la misma forma con la cual guardamos los documentos.
     1. Abrir la carpeta donde esta situado el archivo.
@@ -347,7 +345,7 @@ Existen dos tipos de etiquetas:
 
 #### Etiquetas
 
-• Títulos y subtítulos: 
+• Títulos y subtítulos:
 
 ```<h1>```
 
@@ -401,11 +399,46 @@ Dentro de tabla sale:
 
 Dentro de estas:
 
--```<tr>``` son las filas especificas
+-```<tr>```: son las filas especificas
 
 Dentro de esta:
 
--```<th>```:columnas dentro de la fila (en la primera y la última)
+-```<th>```: columnas dentro de la fila (en la primera y la última)
 
--```<td>```:columnas dentro de la fila (en las de en medio)
+-```<td>```: columnas dentro de la fila (en las de en medio)
 
+La estructura de una tabla seria la siguiente:
+
+```<table border="1px" >
+        <thead>
+            <tr style="color: red;">
+                <th>Puesto</th>
+                <th>Atleta</th>
+                <th>Tiempo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1r</td>
+                <td>Alejandro Perez</td>
+                <td>2:01:15</td>
+            </tr>
+            <tr>
+                <td>2r</td>
+                <td>Torcuato Garcia</td>
+                <td>2:12:10</td>
+            </tr>
+            <tr class="textoRojo">
+                <td>3r</td>
+                <td>Wenceslao Duran</td>
+                <td>2:13:18</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Puesto</th>
+                <th>Atleta</th>
+                <th>Tiempo</th>
+            </tr>
+        </tfoot>
+    </table>```
