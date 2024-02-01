@@ -412,7 +412,7 @@ La estructura de una tabla seria la siguiente:
 ```
     <table border="1px" >
         <thead>
-            <tr style="color: red;">
+            <tr>
                 <th>Puesto</th>
                 <th>Atleta</th>
                 <th>Tiempo</th>
@@ -429,7 +429,7 @@ La estructura de una tabla seria la siguiente:
                 <td>Torcuato Garcia</td>
                 <td>2:12:10</td>
             </tr>
-            <tr class="textoRojo">
+            <tr>
                 <td>3r</td>
                 <td>Wenceslao Duran</td>
                 <td>2:13:18</td>
