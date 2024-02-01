@@ -494,13 +494,13 @@ Ejemplo:
 
 #### Clases
 
-Las clases, como los id, sirven para identificar partes de un documento en concreto para que tengan las mismas caracteristicas. En el caso de los id solo se pueden utilizar una vez con una unica etiqueta, pero con las clases conseguimos que se pueda poner en mas de una etiqueta a la vez consiguiendo asi un id para varias cosas en vez de solo una. 
+Las clases, como los id, sirven para identificar partes de un documento en concreto para que tengan las mismas caracteristicas. En el caso de los id solo se pueden utilizar una vez con una unica etiqueta, pero con las clases conseguimos que se pueda poner en mas de una etiqueta a la vez consiguiendo asi un id para varias cosas en vez de solo una.
 
 Para crear una clase pondremos antes de cerrar la etiqueta/etiquetas a las cuales queremos referirnos lo siguiente: ``class="nombre que querasmo poner a la clase"```
 
-Para ponerlas en nuestra hoja de estilos, antes de poner el nombre del id, pondremos un punto (.). 
+Para ponerlas en nuestra hoja de estilos, antes de poner el nombre del id, pondremos un punto (.).
 
-Ejemplo: 
+Ejemplo:
 
 ```
 .mapa{
@@ -508,7 +508,20 @@ Ejemplo:
 }
 ```
 
+#### Hijos y descendientes
+
+Los hijos y los descendientes se usan dentro de las clases para ahorrarnos crear id dentro de estas.
+
+Los hijos son la siguiente etiqueta puesta correctamente en el sangrado separada por etiquetas. Para hacerlo se usa el >. Se usa en el head o en el archivo externo.
+
+Los descendientes son cualquier etiqueta que este puesta correctamente en el sangrado. No es especificamente el siguiente, puede ser cualquiera de los que este dentro. Para hacerlo se usa la barra espaciadora. Se usa en el head o en el archivo externo.
+
 ### Estilos; En el head
 
 Para añadir estilos desde el head lo primero que hay que hacer es abrir una etiqueta de ```<style>``` dentro del bloque de head. Luego el procedimieto es exactamente el mismo que el de una hoja de estilos CSS, poniendo los nombres de los id/clase como corresponden.
 
+### Paramentros
+
+Hay muchos tipos de parametros que se pueden poner dentro de una hoja de estilos css. Estos son los mas basicos:
+
+- 
