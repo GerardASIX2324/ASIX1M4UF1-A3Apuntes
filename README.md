@@ -340,7 +340,9 @@ La imagen siempre debe estar en .ico
 
 El bloque de ```<body>``` es donde va todo el contenido de la página visible.
 Existen dos tipos de etiquetas:
+
 • Etiquetas de bloque: títulos, párrafos, listas y tablas son elementos de bloque
+
 • Etiquetas de línea: enlaces, estilos (negrita, subrayado, cursiva…) e imágenes.
 
 #### Etiquetas
@@ -369,7 +371,7 @@ Existen dos tipos de etiquetas:
 
 • Intro/dejar un espacio: ```<br>```
 
-• Insertar enlace: ```<a href=”(url o ruta de la pg)”alt=”(lo que quieres que ponga al pasar el ratón por encima)target=”_blank”</a>```. el target lo ponemos si queremos que se abra la pg en una pestaña nueva. Sino, no se pone nada
+• Insertar enlace: ```<a href=”(url o ruta de la pg)”alt=”(lo que quieres que ponga al pasar el ratón por encima)target=”_blank”</a>```. El target lo ponemos si queremos que se abra la pg en una pestaña nueva. Sino, no se pone nada
 
 • Insertar imagen: ```<img src=”./nombre de la imagen SIN ESPACIOS NI SIMBOLOS RAROS”> alt=”(lo que quieres que salga al pasar el ratón por encima)”```
 
@@ -379,7 +381,7 @@ Existen dos tipos de etiquetas:
 
 • Línea separadora: ```<hr>```
 
-• Comentarios para que no se vean en la pg web: ```<!--   -->```
+• Comentarios para que no se vean en la página web: ```<!--   -->```
 
 • Para hacer un enlace dentro de la propia web, antes de cerrar con el > de la etiqueta ```<h3>``` (por ejemplo) ponemos id=”(lo que quieras)” y luego lo cerramos. Después, para poner el link en lugar que quieras de la pagina escribes: ```<a href=”#(nombre del id escrito antes)”> (como quieres que aparezca en pantalla) </a>```
 
@@ -405,5 +407,5 @@ Dentro de esta:
 
 -```<th>```:columnas dentro de la fila (en la primera y la última)
 
-```<td>```:columnas dentro de la fila (en las de en medio)
+-```<td>```:columnas dentro de la fila (en las de en medio)
 
