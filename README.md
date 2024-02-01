@@ -347,6 +347,7 @@ Existen dos tipos de etiquetas:
 
 • Títulos y subtítulos:
 
+
 ```<h1>```
 
 ```<h2>```
@@ -385,6 +386,7 @@ Existen dos tipos de etiquetas:
 
 • foto dentro de un enlace: ```<a href="(ruta a la pagina o url de la pg) "><img src="(ruta de la imagen)" alt="(lo que pone al pasar el ratón por encima)" width="(tamaño)px"></a>```
 
+
 #### Inserción de tablas
 
 ```<table>```: insertar tabla
@@ -408,6 +410,7 @@ Dentro de esta:
 -```<td>```: columnas dentro de la fila (en las de en medio)
 
 La estructura de una tabla seria la siguiente:
+
 
 ```
     <table border="1px" >
@@ -554,4 +557,4 @@ En el documento css esto se implementa de la siguiente forma:
 }
 ```
 
-El ```@media``` es lo que hace que esto suceda, es el parametro que lo introduce. Seguido ponemos la condicion. En este caso es queremos que cuando la pantalla no supere los 700px, las tres columnas pasen a ser solo una. Para ello ponemos ```max-width: (numero de pixeles maximos para cambiar la pantalla)```.Dentro ponemos en que etiqueta, clase o id donde queremos que se implemente y especificamos que condiciones queremos que cumpla.
+El ```@media``` es lo que hace que esto suceda, es el parametro que lo introduce. Seguido ponemos la condicion. En este caso es queremos que cuando la pantalla no supere los 700px, las tres columnas pasen a ser solo una. Para ello ponemos ```max-width: (numero de pixeles maximos para cambiar la pantalla)```. Dentro ponemos en que etiqueta, clase o id donde queremos que se implemente y especificamos que condiciones queremos que cumpla.
