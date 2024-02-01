@@ -409,7 +409,8 @@ Dentro de esta:
 
 La estructura de una tabla seria la siguiente:
 
-```<table border="1px" >
+```
+    <table border="1px" >
         <thead>
             <tr style="color: red;">
                 <th>Puesto</th>
@@ -441,4 +442,5 @@ La estructura de una tabla seria la siguiente:
                 <th>Tiempo</th>
             </tr>
         </tfoot>
-    </table>```
+    </table>
+```
